@@ -1,16 +1,35 @@
-## Hi there 👋
+# Анатолий Кощак — Data Engineer / Аналитик данных (Python, SQL, ETL)
 
-<!--
-**AnatoliyKoschak/AnatoliyKoschak** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Помогаю бизнесу автоматизировать сбор и обработку данных, проектировать надёжные базы данных и строить аналитические витрины.
 
-Here are some ideas to get you started:
+### Чем я могу быть полезен:
+* **ETL и автоматизация отчетности:** сбор данных из REST API, MongoDB, PostgreSQL и других источников в единое хранилище (Python, Apache Airflow).
+* **Проектирование БД и оптимизация SQL:** нормализация схем, написание сложных аналитических запросов (оконные функции, CTE, JSONB), ускорение медленных отчетов.
+* **Инкрементальные витрины данных (DWH):** настройка регулярного обновления метрик без дублей и лишней нагрузки на сервер.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### Мой стек
+* **Базы данных и SQL (Middle+):** PostgreSQL, ClickHouse, SQLite, PL/pgSQL, проектирование DWH (модель «Звезда», SCD Type 2).
+* **Python и ETL:** Python 3, Pandas, Requests, PyMongo, Apache Airflow, Docker, Git.
+
+---
+
+### Ключевые проекты в портфолио
+
+1. **[Многослойное DWH и ETL-пайплайны на Apache Airflow](./multi-source-dwh-airflow-etl)**
+   * **Задача:** объединить данные из 3 разнородных источников (PostgreSQL Outbox, MongoDB, REST API) в единое хранилище (`STG -> DDS -> CDM`) и автоматизировать ежемесячные финансовые расчёты с ресторанами и курьерами.
+   * **Стек:** Python, Apache Airflow, PostgreSQL, MongoDB, REST API, SCD Type 2.
+
+2. **[Интеграция нового источника в DWH и инкрементальная витрина маркетплейса](./marketplace-dwh-incremental-etl)**
+   * **Задача:** объединить данные о продажах из 4 баз после покупки сторонней площадки и построить инкрементальную витрину по покупателям для программы лояльности.
+   * **Стек:** PostgreSQL, SQL (CTE, оконные функции, `MERGE`), инкрементальный ETL.
+
+3. **[Проектирование БД и аналитические витрины для сети ресторанов](./gastro-hub)**
+   * **Задача:** перевести сырые данные заведений в нормализованную базу PostgreSQL, настроить материализованные представления и безопасные транзакционные обновления меню.
+   * **Стек:** PostgreSQL, PL/pgSQL, JSONB (JSONPath), управление блокировками и транзакциями.
+
+---
+
+### Контакты для связи
+* **Telegram:** `@akoschak`
+* **Kwork:** [https://kwork.ru/user/akoschak]
+* Работаю официально как самозанятый (предоставляю чеки для юрлиц и ИП).
