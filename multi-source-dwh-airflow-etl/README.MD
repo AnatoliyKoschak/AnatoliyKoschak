@@ -31,4 +31,4 @@
 * `dags/ddl/` — SQL-скрипты создания схем, таблиц, индексов и ограничений целостности (`CHECK`, `UNIQUE`, `FK`).
 * `dags/dml/` — SQL-скрипты трансформации данных и наполнения слоев DDS и CDM.
 
-![Архитектура DWH](docs/dwh_pipeline_architecture.png)
+![Архитектура DWH](dags/docs/dwh_pipeline_architecture.png)
