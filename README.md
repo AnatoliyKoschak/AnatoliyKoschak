@@ -31,5 +31,5 @@
 
 ### Контакты для связи
 * **Telegram:** `@akoschak`
-* **Kwork:** [https://kwork.ru/user/akoschak]
+* **Kwork:** [kwork.ru/user/akoschak](https://kwork.ru)
 * Работаю официально как самозанятый (предоставляю чеки для юрлиц и ИП).
